@@ -1,0 +1,14 @@
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.AssemblyInfoInputs.cache
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.AssemblyInfo.cs
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.csproj.CoreCompileInputs.cache
+C:\Users\zombi\source\repos\Lab_8\Lab_8\bin\Debug\net8.0\Lab_8.exe
+C:\Users\zombi\source\repos\Lab_8\Lab_8\bin\Debug\net8.0\Lab_8.deps.json
+C:\Users\zombi\source\repos\Lab_8\Lab_8\bin\Debug\net8.0\Lab_8.runtimeconfig.json
+C:\Users\zombi\source\repos\Lab_8\Lab_8\bin\Debug\net8.0\Lab_8.dll
+C:\Users\zombi\source\repos\Lab_8\Lab_8\bin\Debug\net8.0\Lab_8.pdb
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.dll
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\refint\Lab_8.dll
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.pdb
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\Lab_8.genruntimeconfig.cache
+C:\Users\zombi\source\repos\Lab_8\Lab_8\obj\Debug\net8.0\ref\Lab_8.dll
