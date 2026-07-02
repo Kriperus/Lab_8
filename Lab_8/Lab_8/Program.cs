@@ -4,7 +4,6 @@ using System.Text;
 
 namespace TaskScheduler
 {
-    // Основной класс программы
     public class Program
     {
         private static List<Task> tasks;
