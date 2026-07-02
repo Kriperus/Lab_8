@@ -64,7 +64,6 @@ namespace TaskScheduler
             return tasks.Count > 0 ? tasks.Max(t => t.Id) + 1 : 1;
         }
 
-        // Запрос 1: Возвращает перечень задач с высоким приоритетом, срок которых истекает в ближайшие 3 дня
         public static List<Task> GetHighPriorityUrgentTasks(List<Task> tasks)
         {
             DateTime now = DateTime.Now;
@@ -76,7 +75,6 @@ namespace TaskScheduler
                 .ToList();
         }
 
-        // Запрос 2: Возвращает перечень выполненных задач, отсортированных по убыванию даты выполнения (сроку)
         public static List<Task> GetCompletedTasksSorted(List<Task> tasks)
         {
             return tasks
@@ -85,13 +83,11 @@ namespace TaskScheduler
                 .ToList();
         }
 
-        // Запрос 3: Возвращает одно значение - количество задач с низким приоритетом
         public static int GetLowPriorityTaskCount(List<Task> tasks)
         {
             return tasks.Count(t => t.Priority == 1 && !t.IsCompleted);
         }
 
-        // Запрос 4: Возвращает одно значение - средний приоритет всех задач (округлённый до целого)
         public static double GetAveragePriority(List<Task> tasks)
         {
             if (tasks.Count == 0)
@@ -102,7 +98,6 @@ namespace TaskScheduler
             return tasks.Average(t => t.Priority);
         }
 
-        // Дополнительный запрос: задачи с просроченным сроком
         public static List<Task> GetOverdueTasks(List<Task> tasks)
         {
             return tasks
@@ -111,7 +106,6 @@ namespace TaskScheduler
                 .ToList();
         }
 
-        // Дополнительный запрос: статистика по приоритетам
         public static Dictionary<int, int> GetPriorityStatistics(List<Task> tasks)
         {
             return tasks
