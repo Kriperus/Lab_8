@@ -27,7 +27,7 @@ namespace TaskScheduler
                         writer.Write(task.Id);
                         writer.Write(task.Title ?? string.Empty);
                         writer.Write(task.Description ?? string.Empty);
-                        writer.Write(task.DueDate.ToBinary()); // DateTime в бинарный формат
+                        writer.Write(task.DueDate.ToBinary());
                         writer.Write(task.Priority);
                         writer.Write(task.IsCompleted);
                     }
