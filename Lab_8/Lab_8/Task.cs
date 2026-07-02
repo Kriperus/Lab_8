@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 
 namespace TaskScheduler
 {
-    [Serializable] // Важно для бинарной сериализации
+    [Serializable]
     public class Task
     {
         // Свойства
