@@ -35,7 +35,7 @@ namespace TaskScheduler
             return date < DateTime.Now;
         }
 
-        // Получение человеко-читаемого описания срока
+        // Получение читаемого описания срока
         public static string GetDueDateDescription(DateTime dueDate)
         {
             if (IsOverdue(dueDate))
